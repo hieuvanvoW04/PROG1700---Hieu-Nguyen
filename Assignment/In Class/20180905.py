@@ -8,8 +8,8 @@ _AUTHOR_ = "Hieu Nguyen <W0424530@nscc.ca>"
 
 
 def main():
-    print("Hello World")
+    print("Hello Prince World")
 
 
-if __name__== "_main_":
+if __name__== "__main__":
     main()
