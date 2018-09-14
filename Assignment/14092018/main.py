@@ -17,12 +17,14 @@ def main():
     #Process
     
     wall1= length*height*2
-    wall2=qidth*height*2
+    wall2=width*height*2
     sqft= wall1+wall2
     gallon= sqft/150
 
     #Output
-    print("You will need (x) gallon")
+    displayGallon=str(gallon)
+    displayGallon="You will need "<str(gallon)>" gallon"
+    print(displayGallon)
     
 
 
