@@ -8,7 +8,20 @@ _AUTHOR_ = "Hieu Nguyen <W0424530@nscc.ca>"
 
 
 def main():
-    print("Hello Prince World")
+
+    #Input
+
+
+
+
+    #Process
+
+
+
+
+    #Output
+    print("You will need (x) gallon")
+    
 
 
 if __name__== "__main__":
