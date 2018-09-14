@@ -6,6 +6,7 @@ ID....: W0424530
 """
 _AUTHOR_ = "Hieu Nguyen <W0424530@nscc.ca>"
 
+import math
 
 def main():
 
@@ -20,6 +21,7 @@ def main():
     wall2=width*height*2
     sqft= wall1+wall2
     gallon= sqft/150
+    gallon== math.ceil(gallon)
 
     #Output
     displayGallon=str(gallon)
