@@ -12,13 +12,13 @@ def main():
 
 # Input
 
-OriginalBill = float( input( "Please enter the original bill: " ) )
+    OriginalBill = float( input( "Please enter the original bill: " ) )
 
 
 # Process
-tip = 0.2 * OriginalBill
-tax = 0.15 * OriginalBill
-Totalamount = OriginalBill + tip + tax
+    tip = 0.2 * OriginalBill
+    tax = 0.15 * OriginalBill
+    Totalamount = OriginalBill + tip + tax
 
 # Output
     print( "OriginalBill: $"+format( OriginalBill, ",.2f"), "tip: $"+format( tip, ",.2f"),"tax: $"+format(tax, ".,2f"), \
