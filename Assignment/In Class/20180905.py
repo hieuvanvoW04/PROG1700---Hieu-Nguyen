@@ -9,7 +9,20 @@ _AUTHOR_ = "Hieu Nguyen <W0424530@nscc.ca>"
 
 
 def main():
-    print("Hello Prince World")
+
+# Input
+OriginalBill = float( input(" Please enter the original bill: ")
+tip = 0.2 * OriginalBill
+saleTax = 0.15 * OriginalBill
+Totalamount= OriginalBill + tip+ saleTax
+
+# Process
+
+
+
+
+# Output
+    print( "OriginalBill: $" + format( OriginalBill, ",.2f"))
 
 
 if __name__== "__main__":
