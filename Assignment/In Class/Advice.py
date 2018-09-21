@@ -10,8 +10,9 @@ def main():
 # Advice
     
     prefix="Fore"
+    adv="{0}warned is {0}armed".format(prefix)
     
-    print("prefix"+"warned", "is","prefix"+"armed")
+    print(adv)
 
 
     
