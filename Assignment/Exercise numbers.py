@@ -7,10 +7,13 @@ ID....: W0424530
 _AUTHOR_ = "Hieu Nguyen <W0424530@nscc.ca>"
 
 def main():
-    deposit=100
-    if deposit>100:
-        print("You get a free toaster")
-print("Have a nice day")
+    deposit=input("Deposit:")
+    deposit=float(deposit)
+    if deposit>=100:
+        print("toaster")
+    else:
+        print("mug")
+print(":)")
 
 if __name__== "__main__":
     main()
