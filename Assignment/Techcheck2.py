@@ -1,6 +1,4 @@
 """
-Hello World
-Python Push
 Name..
 : Hieu NGuyen, Student  
 ID....: W0424530
