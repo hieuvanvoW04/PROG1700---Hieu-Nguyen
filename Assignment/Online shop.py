@@ -22,7 +22,7 @@ def main():
         elif province!="AB"or"ON"or"NB"or"NS":
             total=total+total*0.11
             print(total)
-    elif country!="CANADA":
+    else country!="CANADA":
         print(total)
 
 
