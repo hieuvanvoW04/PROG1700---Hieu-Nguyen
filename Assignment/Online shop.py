@@ -9,14 +9,22 @@ _AUTHOR_ = "Hieu Nguyen <W0424530@nscc.ca>"
 def main():
     country=input("where are you from? ")
     country= country.lower()
-    price= input("Where are the order total: ")
+    total= input("What are the order total: ")
+
     if country=="CANADA":
-        input("Which province ")
+        province=input("Which province ")
+        if province=="AB":
+            total=total+total*0.05
+            print(total)
+        elif province=="ON"or"NB"or"NS":
+            total=total+total*0.15
+            print(total)
+        elif province!="AB"or"ON"or"NB"or"NS":
+            total=total+total*0.11
+            print(total)
     elif country!="CANADA":
+        print(total)
 
-
-   
-print("Have a nice day")
 
 if __name__== "__main__":
     main()
