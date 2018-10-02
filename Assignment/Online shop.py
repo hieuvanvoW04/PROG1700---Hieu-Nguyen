@@ -8,12 +8,12 @@ _AUTHOR_ = "Hieu Nguyen <W0424530@nscc.ca>"
 
 def main():
     country=input("where are you from? ")
-    price= input("Where are the price: ")
-    if(price>2000000 and win=='y'):
-        
-    if country= CANADA:
-        print("")
-    elif country=    
+    country= country.lower()
+    price= input("Where are the order total: ")
+    if country=="CANADA":
+        input("Which province ")
+    elif country!="CANADA":
+
 
    
 print("Have a nice day")
