@@ -1,7 +1,7 @@
 {
     "python.jediEnabled": false,
     "python.linting.enabled": true,
-    "python.linting.pylintEnabled": false
+    "python.linting.pylintEnabled": false,
     "git.enableSmartCommit": true,
     "workbench.colorTheme": "Visual Studio Light"
 }
