@@ -25,13 +25,12 @@ def main():
     totalKilos=totalOunces/35.274
     metricTons=int(totalKilos/1000)
     kilo=int(totalKilos-metricTons*1000)
-    gram=float()
+    gram=float(((totalKilos-kilo-metricTons*1000)*1000))
     
 #Output
 
-    print("\nYour weekly payment will be: ${0:.2f}".format(weeklyPayment))
-    
+    print("\nThe metric eight is {0}".format(metricTons)+"metric tons, {0}".format(kilo)+" kilos, and {0:.1f}".format(gram)+ " grams")
 
-
+   
 if __name__== "__main__":
     main()
