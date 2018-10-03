@@ -21,8 +21,11 @@ def main():
 
 #Process
 
-    i=interestRate/5200
-    weeklyPayment= (i/(1-((1+i)**(-(52*numberofYears)))))*loanAmount
+    totalOunces=tons*35840+Stones*224+pounds*16+ounces
+    totalKilos=totalOunces/35.274
+    metricTons=int(totalKilos/1000)
+    kilo=int(totalKilos-metricTons*1000)
+    gram=float()
     
 #Output
 
