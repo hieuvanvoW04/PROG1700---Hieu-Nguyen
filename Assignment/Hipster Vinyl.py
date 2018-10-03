@@ -5,6 +5,14 @@ ID....: W0424530
 """
 _AUTHOR_ = "Hieu Nguyen <W0424530@nscc.ca>"
 
+#1. Print name
+#2. Input customer name
+#3. Input distance delivery
+#4. Input cost purchase
+#5. Calculate delivery cost
+#6. Calculate purchase cost
+#7. Calculate total cost
+#8. Print
 def main():
 #Input
     print("Hipster's Local Vinyl Record- Customer Invoice")
