@@ -5,20 +5,19 @@ ID....: W0424530
 """
 _AUTHOR_ = "Hieu Nguyen <W0424530@nscc.ca>"
 
-#1. Print name
-#2. Input loan amount
-#3. Input interest rate
-#4. Input year
-#5. Calculate i
-#6. Calculate weekly loan payment amount
+#1. Print program name
+#2. Input tons, stones, pounds and ounces amount
+#3. Convert amount into kilos
+#4. Convert rest amount to grams
+#5. Print Result
 
 def main():
 #Input
 
-    print("Weekly Loan Payment Calculator")
-    loanAmount=float(input("\nEnter the amount of loan: "))
-    interestRate=float(input("Enter interest Rate (%): "))
-    numberofYears=float(input("Enter the number of years: "))
+    print("Imperial to Metric Conversion")
+    tons=float(input("\nEnter number of tons: "))
+    Stones=float(input("Enter number of stone: "))
+    ounces=float(input("Enter number of ounces: "))
 
 #Process
 
