@@ -17,6 +17,7 @@ def main():
     print("Imperial to Metric Conversion")
     tons=float(input("\nEnter number of tons: "))
     Stones=float(input("Enter number of stone: "))
+    pounds=float(input("Enter number of pounds: "))
     ounces=float(input("Enter number of ounces: "))
 
 #Process
@@ -29,7 +30,7 @@ def main():
     
 #Output
 
-    print("\nThe metric eight is {0}".format(metricTons)+"metric tons, {0}".format(kilo)+" kilos, and {0:.1f}".format(gram)+ " grams")
+    print("\nThe metric eight is {0}".format(metricTons)+" metric tons, {0}".format(kilo)+" kilos, and {0:.1f}".format(gram)+ " grams")
 
    
 if __name__== "__main__":
