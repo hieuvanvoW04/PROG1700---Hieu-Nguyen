@@ -21,7 +21,7 @@ def main():
     Totalamount = OriginalBill + tip + tax
 
 # Output
-    print( "OriginalBill: $"+format( OriginalBill, ",.2f"), "tip: $"+format( tip, ",.2f"),"tax: $"+format( tax, ".,2f"), \
+    print( "OriginalBill: $"+format( OriginalBill, ",.2f"), "tip: $"+format( tip, ",.2f"),"tax: $"+format( tax, ",.2f"), \
     "Totalamount: $" + format( Totalamount, ",.2f"), sep = "\n")
 
 
