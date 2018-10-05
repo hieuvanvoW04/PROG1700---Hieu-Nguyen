@@ -30,7 +30,7 @@ def main():
     
 #Output
 
-    print("\nThe metric eight is {0}".format(metricTons)+" metric tons, {0}".format(kilo)+" kilos, and {0:.1f}".format(gram)+ " grams")
+    print("\nThe metric weight is {0}".format(metricTons)+" metric tons, {0}".format(kilo)+" kilos, and {0:.1f}".format(gram)+ " grams")
 
    
 if __name__== "__main__":
