@@ -19,31 +19,43 @@ def main():
     total=0
     if Grade=="A" and Mod=="+":
         total=total+4.0
+        print("The numeric value is {0:.1f}".format(total))
     elif Grade == "A" and Mod=="":
         total = total + 4.0
+        print("The numeric value is {0:.1f}".format(total))
     elif Grade == "A" and Mode=="-":
         total = total + 3.7
+        print("The numeric value is {0:.1f}".format(total))
     elif Grade == "B" and Mode=="+":
-            total = total + 3.3
+        total = total + 3.3
+        print("The numeric value is {0:.1f}".format(total))
     elif Grade == "B" and Mode=="":
-            total = total + 3.0
+        total = total + 3.0
+        print("The numeric value is {0:.1f}".format(total))
     elif Grade == "B" and Mode=="-":
-            total = total + 2.7
+        total = total + 2.7
+        print("The numeric value is {0:.1f}".format(total))
     elif Grade == "C" and Mode=="+":
-            total = total + 2.3
+        total = total + 2.3
+        print("The numeric value is {0:.1f}".format(total))
     elif Grade == "C" and Mode=="":
-            total = total + 2.0
+        total = total + 2.0
+        print("The numeric value is {0:.1f}".format(total))
     elif Grade == "C" and Mode=="-":
-            total = total + 1.7
+        total = total + 1.7
+        print("The numeric value is {0:.1f}".format(total))
     elif Grade == "D":
-            total = total + 1.0
+         total = total + 1.0
+         print("The numeric value is {0:.1f}".format(total))
     elif Grade=="F":
-            total= total
+         total= total
+         print("The numeric value is {0:.1f}".format(total))
     else:
          print("You enter an invalid letter grade.")
 
-# Output
-    print("The numeric value is {0:.1f}".format(total))
+
+    
+   
 
 if __name__== "__main__":
     main()
