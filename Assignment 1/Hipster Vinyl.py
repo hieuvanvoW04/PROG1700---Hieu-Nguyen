@@ -29,7 +29,7 @@ def main():
 
 #Output
     print("\nPurchase summary for "+customerName.title())
-    print("Delivery Cost: \t${0:.2f}".format(deliveryCost)+"\nPurchase Cost: \t${0:.2f}".format(purchaseCost)+"\nTotal Cost: \t${0:.2f}".format(totalCost))
+    print("Delivery Cost: \t${0:.2f}".format(deliveryCost)+"\nPurchase Cost: \t${0:.2f}".format(purchaseCost)+"\nTotal Cost\t: \t${0:.2f}".format(totalCost))
 
 
 if __name__== "__main__":

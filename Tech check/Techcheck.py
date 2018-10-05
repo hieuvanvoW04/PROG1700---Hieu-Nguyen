@@ -22,7 +22,7 @@ def main():
 
 # Output
     print( "OriginalBill: $"+format( OriginalBill, ",.2f"), "tip: $"+format( tip, ",.2f"),"tax: $"+format( tax, ".,2f"), \
-    "Totalamount: $" + format( Totalamount, ",.2f"), sep = "\n" )
+    "Totalamount: $" + format( Totalamount, ",.2f"), sep = "\n")
 
 
 if __name__== "__main__":

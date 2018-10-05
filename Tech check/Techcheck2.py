@@ -22,8 +22,8 @@ def main():
     Totaltakehome = EmplyWsalary - TotalWithheld
 
 # Output
-    print( "EmplyWsalary: $"+format(EmplyWsalary, ",.2f"), "ProvincialTax: $"+format(ProvincialTax, ",.2f"),"FederalTax: $"+format(FederalTax, ".,2f"),"DependentDeduct: $"+format(DependentDeduct, ".,2f"),"TotalWithheld: $"+format(TotalWithheld, ".,2f"), \
-    "Totaltakehome: $" + format( Totaltakehome, ",.2f"), sep = "\n" )
+    print("EmplyWsalary: $"+format(EmplyWsalary, ",.2f"),"ProvincialTax: $"+format(ProvincialTax, ",.2f"),"FederalTax: $"+format(FederalTax, ",.2f"),"Dependent: $"+format(DependentDeduct, ",.2f"),"TotalWithheld: $"+format(TotalWithheld, ",.2f"), \
+    "Totaltakehome: $" + format( Totaltakehome, ",.2f"),sep = "\n" )
 
 
 if __name__== "__main__":
