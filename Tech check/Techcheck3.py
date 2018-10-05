@@ -40,7 +40,7 @@ def main():
     elif Grade=="F":
             total= total
     else:
-         print("You enter an invalid letter grade")
+         print("You enter an invalid letter grade.")
 
 # Output
     print("The numeric value is {0:.1f}".format(total))
