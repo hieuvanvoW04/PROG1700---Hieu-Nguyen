@@ -8,7 +8,7 @@ _AUTHOR_ = "Hieu Nguyen <W0424530@nscc.ca>"
 
 def foo():
     print("hello from inside of foo")
-    return 1
+    return __name__
 
 if __name__== '__main__':
     print("going to call foo")
