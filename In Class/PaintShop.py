@@ -31,7 +31,7 @@ gallons_of_paint= calculateGallons(totalArea,square_feet_per_gallon)
 
 print(f"\nThe total wall area of your room is "+ str(totalArea)+ " square feet.")
 
-print(f"You need "+ str(calcualteArea)+ " gallon(s) of paint. \n\nHappy Painting!")
+print(f"You need "+ str(gallons_of_paint)+ " gallon(s) of paint. \n\nHappy Painting!")
 
 
 
