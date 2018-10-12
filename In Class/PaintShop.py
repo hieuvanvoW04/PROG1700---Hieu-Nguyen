@@ -6,6 +6,8 @@ ID....: W0424530
 """
 _AUTHOR_ = "Hieu Nguyen <W0424530@nscc.ca>"
 
+import math
+
 
 square_feet_per_gallon = 150
 
@@ -16,13 +18,15 @@ length = float(input("\nEnter the length of the room, in feet: "))
 width = float(input("Enter the width of the room, in feet: "))
 height = float(input("Enter the height of the room, in feet: "))
 
+def totalArea(length,width,heigh):
+    return ((length * height * 2) + (width * height * 2))
+def gallons_of_paint(totalArea,square_feet_per_gallon):
+    return totalArea/square_feet_per_gallon
 
-def gallons_of_paint(length,width,height):
-    return ((length*height*2)+(width*height*2))/150
+    gallonsPaint= gallons_of_paint(totalArea,square_feet_per_gallon)
 
-gallonsPaint= gallons_of_paint(length,width,height)
-
-print(f"You need (gallonsPaint)")
+print(f"\nThe total wall area of your room is "+ str(totalArea)+ " square feet.")
+print(f"You need "+ str(gallonsPaint)+ " gallon(s) of paint. \n\nHappy Painting!")
 
 
 
