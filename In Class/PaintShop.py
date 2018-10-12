@@ -18,18 +18,19 @@ length = float(input("\nEnter the length of the room, in feet: "))
 width = float(input("Enter the width of the room, in feet: "))
 height = float(input("Enter the height of the room, in feet: "))
 
-totalArea= calcualteArea(length,width,heigh)
-
-gallons_of_paint= calculateGallons(totalArea,square_feet_per_gallon)
-
-def calcualteArea(length,width,heigh):
+def calcualteArea(length,width,height):
     return ((length * height * 2) + (width * height * 2))
 
 def calculateGallons(totalArea,square_feet_per_gallon):
     return math.ceil(totalArea/square_feet_per_gallon)
 
+totalArea= calcualteArea(length,width,height)
+
+gallons_of_paint= calculateGallons(totalArea,square_feet_per_gallon)
+
 
 print(f"\nThe total wall area of your room is "+ str(totalArea)+ " square feet.")
+
 print(f"You need "+ str(calcualteArea)+ " gallon(s) of paint. \n\nHappy Painting!")
 
 
