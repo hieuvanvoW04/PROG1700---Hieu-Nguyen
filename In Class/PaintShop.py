@@ -12,10 +12,15 @@ square_feet_per_gallon = 150
 print("Welcome to the Paint Shop!")
 print("This program will help you calculate how many cans of paint you need to buy, based on the dimensions of your room.")
 
-def gallons_of_paint(x,y,z):
-    return ((x*z*2)+(y*z*2))/150
+length = float(input("\nEnter the length of the room, in feet: "))
+width = float(input("Enter the width of the room, in feet: "))
+height = float(input("Enter the height of the room, in feet: "))
 
-gallonsPaint= gallons_of_paint(5,4,3)
+
+def gallons_of_paint(length,width,height):
+    return ((length*height*2)+(width*height*2))/150
+
+gallonsPaint= gallons_of_paint(length,width,height)
 
 print(f"You need (gallonsPaint)")
 
