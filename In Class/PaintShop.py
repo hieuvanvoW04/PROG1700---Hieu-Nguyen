@@ -8,7 +8,6 @@ _AUTHOR_ = "Hieu Nguyen <W0424530@nscc.ca>"
 
 import math
 
-
 square_feet_per_gallon = 150
 
 print("Welcome to the Paint Shop!")
@@ -18,16 +17,15 @@ length = float(input("\nEnter the length of the room, in feet: "))
 width = float(input("Enter the width of the room, in feet: "))
 height = float(input("Enter the height of the room, in feet: "))
 
-def calcualteArea(length,width,height):
-    return ((length * height * 2) + (width * height * 2))
+def calcualateArea(length,width,height):
+    return (length*height*2)+(width*height*2)
 
 def calculateGallons(totalArea,square_feet_per_gallon):
     return math.ceil(totalArea/square_feet_per_gallon)
 
-totalArea= calcualteArea(length,width,height)
 
-gallons_of_paint= calculateGallons(totalArea,square_feet_per_gallon)
-
+totalArea=calcualateArea(length,width,height)
+gallons_of_paint=calculateGallons(totalArea,square_feet_per_gallon)
 
 print(f"\nThe total wall area of your room is "+ str(totalArea)+ " square feet.")
 

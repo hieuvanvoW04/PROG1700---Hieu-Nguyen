@@ -8,7 +8,7 @@ _AUTHOR_ = "Hieu Nguyen <W0424530@nscc.ca>"
 
 
 
-def calcPaintCost(l,w,costst):
+def calcPaintCost(l,w,cost):
     area=l*w
     cost=(0.25)*area
     return(cost)
