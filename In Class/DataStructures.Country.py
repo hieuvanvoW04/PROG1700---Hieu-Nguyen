@@ -17,11 +17,11 @@ def main():
   
     while (country in countries ):
         print("already in list")
-        country=input("tr another one")
+        country=input("try another one")
 
-countries.append(country)
+    countries.append(country)
 
-print(countries)
+    print(countries)
 
 if __name__== "__main__":
     main()  
