@@ -3,7 +3,6 @@ def calculateTax(in_product_price,in_tax_rate):
    
     #Process
     product_total= in_product_price*(1+ in_tax_rate)
-    #Output
     return product_total
 
 def main():
