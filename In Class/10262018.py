@@ -17,7 +17,9 @@ def whileTrue():
         print(num_list)
         bkeepgoing=input("Do you want to contunue adding to the list(y/n) ")
     
-    print(len(num_list))
-    print(sum(num_list))
+    l=len(num_list)
+    s=sum(num_list)
+    a=s/l
+    print(l,s,a)
 
 whileTrue()
