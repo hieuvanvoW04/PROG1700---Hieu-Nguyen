@@ -6,8 +6,9 @@ def fruit():
     def replace():
         K=L.replace('e','E')
         return K
-    for i in K:
-        print(i)
+    res=map(replace,L)
+
+    print(list(res))
 
 
 fruit()
