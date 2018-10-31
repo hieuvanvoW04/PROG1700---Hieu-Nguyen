@@ -32,7 +32,7 @@ function
 #         return(num_to_check)
 
 # first_int=input("Give me first #")
-# first_int=getValidNum(first.int)
+# first_int=getValidNum(first_int)
 
 
 

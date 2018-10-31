@@ -8,24 +8,24 @@ def HighestCommonDivisor():
         return x
     
     def getValidNum1(num1_to_check):
+        nc1=num1_to_check.replace(".","")
+        while(not num1_to_check.isnumeric()):
+            num1_to_check=input("ERROR!. Enter a valid first number.")
             nc1=num1_to_check.replace(".","")
-            while(not num1_to_check.isnumeric):
-                    num1_to_check=input("ERROR!. Enter a valid first number.")
-                    nc1=num1_to_check.replace(".","")
-            else:
-                    num1_to_check=int(num1_to_check)
+        else:
+            num1_to_check=int(num1_to_check)
 
-            return(num1_to_check)
+        return(num1_to_check)
     
     def getValidNum2(num2_to_check):
+        nc2=num2_to_check.replace(".","")
+        while(not num2_to_check.isnumeric()):
+            num2_to_check=input("ERROR!. Enter a valid second number.")
             nc2=num2_to_check.replace(".","")
-            while(not num2_to_check.isnumeric):
-                    num2_to_check=input("ERROR!. Enter a valid second number.")
-                    nc2=num2_to_check.replace(".","")
-            else:
-                    num2_to_check=int(num2_to_check)
+        else:
+            num2_to_check=int(num2_to_check)
 
-            return(num2_to_check)
+        return(num2_to_check)
 
     bkeepgoing='y'
     while (bkeepgoing=='y'):
