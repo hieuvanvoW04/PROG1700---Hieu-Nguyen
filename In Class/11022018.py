@@ -54,3 +54,11 @@ def max(L):
         if(i>max):
             max=i
     return(max)  
+
+
+def gcd(n1,n2):
+    nModularFL=getFactorList(n1)
+    nGreaterthanLL=getFactorList(n1)
+    CL=commonInLists(nModularFL,nGreaterthanLL)
+    # print(max(CL))
+    return(max(CL))
