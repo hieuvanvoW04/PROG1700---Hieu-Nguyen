@@ -23,11 +23,11 @@ for i in range(len(input_text)):
 		alpha_index = lowercase_alphabet.index(input_text[i].lower())
 		
 		new_index = (alpha_index + random_num) % 26
-		
+		# maintain the case of the input message
 		if input_text[i].upper() == input_text[i]:
-			output_text += lowercase_alphabet[ni].upper()
+			output_text += lowercase_alphabet[new_index].upper()
 		else:
-			output_text += lowercase_alphabet[ni]
+			output_text += lowercase_alphabet[new_index]
 
 print(output_text)
 
